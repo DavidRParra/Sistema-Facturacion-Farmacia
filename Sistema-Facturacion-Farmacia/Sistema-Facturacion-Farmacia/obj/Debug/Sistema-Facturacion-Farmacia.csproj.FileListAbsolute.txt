@@ -1,0 +1,13 @@
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\bin\Debug\Sistema-Facturacion-Farmacia.exe.config
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\bin\Debug\Sistema-Facturacion-Farmacia.exe
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\bin\Debug\Sistema-Facturacion-Farmacia.pdb
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema-Facturacion-Farmacia.csproj.AssemblyReference.cache
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Form1.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Properties.Resources.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema-Facturacion-Farmacia.csproj.GenerateResource.cache
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema-Facturacion-Farmacia.csproj.CoreCompileInputs.cache
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema-Facturacion-Farmacia.exe
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema-Facturacion-Farmacia.pdb
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.Registro.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.Main.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.FacturarProductos.resources
