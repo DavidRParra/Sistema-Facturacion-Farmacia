@@ -11,3 +11,10 @@ C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Fac
 C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.Registro.resources
 C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.Main.resources
 C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.FacturarProductos.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.GestionClientes.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.GestionProductos.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.SubVistas.AgregarLaboratorio.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.SubVistas.AgregarCategoria.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.GestionFacturas.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\obj\Debug\Sistema_Facturacion_Farmacia.Vistas.GestionProveedores.resources
+C:\Users\DP\Documents\Unad\Aplicaciones\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\Sistema-Facturacion-Farmacia\bin\Debug\FACTURACION_FARMACIA.mdf

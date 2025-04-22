@@ -28,14 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Tabla = new System.Windows.Forms.DataGridView();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Laboratorio = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,8 +43,6 @@
             this.ITBIS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descuento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fACTURACION_FARMACIADataSet = new Sistema_Facturacion_Farmacia.FACTURACION_FARMACIADataSet();
-            this.fACTURACIONFARMACIADataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btn_Editar = new System.Windows.Forms.Button();
             this.btn_Facturar = new System.Windows.Forms.Button();
             this.btn_Agregar = new System.Windows.Forms.Button();
@@ -73,9 +70,9 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.tb_Total = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.cb_clientes = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.Tabla)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fACTURACION_FARMACIADataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fACTURACIONFARMACIADataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // Tabla
@@ -99,9 +96,9 @@
             // 
             // Nombre
             // 
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nombre.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nombre.DefaultCellStyle = dataGridViewCellStyle1;
             this.Nombre.HeaderText = "Nombre";
             this.Nombre.Name = "Nombre";
             this.Nombre.ReadOnly = true;
@@ -111,9 +108,9 @@
             // Laboratorio
             // 
             this.Laboratorio.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Laboratorio.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Laboratorio.DefaultCellStyle = dataGridViewCellStyle2;
             this.Laboratorio.HeaderText = "Laboratorio";
             this.Laboratorio.Name = "Laboratorio";
             this.Laboratorio.ReadOnly = true;
@@ -122,9 +119,9 @@
             // 
             // Cantidad
             // 
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle3;
             this.Cantidad.HeaderText = "Cantidad";
             this.Cantidad.Name = "Cantidad";
             this.Cantidad.ReadOnly = true;
@@ -134,9 +131,9 @@
             // PrecioUnidad
             // 
             this.PrecioUnidad.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrecioUnidad.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PrecioUnidad.DefaultCellStyle = dataGridViewCellStyle4;
             this.PrecioUnidad.HeaderText = "P.Und";
             this.PrecioUnidad.Name = "PrecioUnidad";
             this.PrecioUnidad.ReadOnly = true;
@@ -146,9 +143,9 @@
             // ITBIS
             // 
             this.ITBIS.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ITBIS.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ITBIS.DefaultCellStyle = dataGridViewCellStyle5;
             this.ITBIS.HeaderText = "ITBIS";
             this.ITBIS.Name = "ITBIS";
             this.ITBIS.ReadOnly = true;
@@ -158,9 +155,9 @@
             // Descuento
             // 
             this.Descuento.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Descuento.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Descuento.DefaultCellStyle = dataGridViewCellStyle6;
             this.Descuento.HeaderText = "Descuento";
             this.Descuento.Name = "Descuento";
             this.Descuento.ReadOnly = true;
@@ -170,24 +167,14 @@
             // SubTotal
             // 
             this.SubTotal.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SubTotal.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SubTotal.DefaultCellStyle = dataGridViewCellStyle7;
             this.SubTotal.HeaderText = "Sub. Total";
             this.SubTotal.Name = "SubTotal";
             this.SubTotal.ReadOnly = true;
             this.SubTotal.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.SubTotal.Width = 110;
-            // 
-            // fACTURACION_FARMACIADataSet
-            // 
-            this.fACTURACION_FARMACIADataSet.DataSetName = "FACTURACION_FARMACIADataSet";
-            this.fACTURACION_FARMACIADataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // fACTURACIONFARMACIADataSetBindingSource
-            // 
-            this.fACTURACIONFARMACIADataSetBindingSource.DataSource = this.fACTURACION_FARMACIADataSet;
-            this.fACTURACIONFARMACIADataSetBindingSource.Position = 0;
             // 
             // btn_Editar
             // 
@@ -224,6 +211,7 @@
             this.btn_Agregar.TabIndex = 3;
             this.btn_Agregar.Text = "Agregar";
             this.btn_Agregar.UseVisualStyleBackColor = false;
+            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
             // tb_CodigoDeBarra
             // 
@@ -231,6 +219,7 @@
             this.tb_CodigoDeBarra.Name = "tb_CodigoDeBarra";
             this.tb_CodigoDeBarra.Size = new System.Drawing.Size(247, 27);
             this.tb_CodigoDeBarra.TabIndex = 4;
+            this.tb_CodigoDeBarra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_CodigoDeBarra_KeyPress);
             // 
             // label1
             // 
@@ -434,11 +423,32 @@
             this.tb_Total.Name = "tb_Total";
             this.tb_Total.Size = new System.Drawing.Size(147, 27);
             this.tb_Total.TabIndex = 26;
+            this.tb_Total.Text = "0.00";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(128, 763);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(64, 20);
+            this.label14.TabIndex = 29;
+            this.label14.Text = "Cliente:";
+            // 
+            // cb_clientes
+            // 
+            this.cb_clientes.FormattingEnabled = true;
+            this.cb_clientes.Location = new System.Drawing.Point(198, 760);
+            this.cb_clientes.Name = "cb_clientes";
+            this.cb_clientes.Size = new System.Drawing.Size(174, 28);
+            this.cb_clientes.TabIndex = 30;
             // 
             // FacturarProductos
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1240, 855);
+            this.Controls.Add(this.cb_clientes);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.tb_Total);
             this.Controls.Add(this.label12);
@@ -474,8 +484,6 @@
             this.Name = "FacturarProductos";
             this.Text = "FacturarProductos";
             ((System.ComponentModel.ISupportInitialize)(this.Tabla)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fACTURACION_FARMACIADataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.fACTURACIONFARMACIADataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -484,8 +492,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView Tabla;
-        private System.Windows.Forms.BindingSource fACTURACIONFARMACIADataSetBindingSource;
-        private FACTURACION_FARMACIADataSet fACTURACION_FARMACIADataSet;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Laboratorio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
@@ -520,5 +526,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox tb_Total;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ComboBox cb_clientes;
     }
 }

@@ -14,7 +14,6 @@ namespace Sistema_Facturacion_Farmacia
 {
     public partial class Form1 : Form
     {
-        Connection conn= new Connection();
         Imagen img = new Imagen();
         public Form1()
         {

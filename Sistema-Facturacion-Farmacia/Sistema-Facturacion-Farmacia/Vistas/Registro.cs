@@ -13,7 +13,6 @@ namespace Sistema_Facturacion_Farmacia.Vistas
 {
     public partial class Registro : Form
     {
-        private Connection conn = new Connection();
         private Imagen img = new Imagen();
         private Form1 form = new Form1();
         public Registro()
